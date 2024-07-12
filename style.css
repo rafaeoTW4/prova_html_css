@@ -24,7 +24,7 @@
 
 .header-right {
     flex: 1; /* Faz com que header-right ocupe todo o espaço disponível */
-    text-align: right; /* Alinha o conteúdo à direita */
+    text-align: center; /* Alinha o conteúdo à direita */
 
 }
  
@@ -50,9 +50,11 @@
 
 .menu a {
     text-decoration: none; /* Remove sublinhado padrão dos links */
-    color: #333; /* Cor do texto do menu */
-    font-family: Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Tipo de fonte do menu */
-    font-size: 22px; /* Tamanho da fonte do menu */
+    color: white; /* Cor do texto do menu */
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;    font-size: 22px; /* Tamanho da fonte do menu */
     font-weight: bold; /* Peso da fonte (negrito) */
 }
 
@@ -61,9 +63,88 @@
 }
 
 .fundoDiv {
-    background-image: url('/istockphoto-585292028-1024x1024.jpg'); 
+    background-image: url('/andar-ideal-do-apartamento\ \(1\).jpeg'); 
     background-size: cover; /* Faz com que a imagem cubra toda a área da div */
     background-position: center; /* Centraliza a imagem na div */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
     height: 800px; /* Altura da div com imagem de fundo */
+}
+
+.paragrafo {
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-size: 50px;
+    font-weight: bold; 
+    text-align: center;
+    padding: 10px; /* Espaçamento interno para o conteúdo do parágrafo */
+    -webkit-text-stroke: 1px black; /* Stroke para navegadores WebKit (Safari, Chrome, etc.) */
+    color: goldenrod;
+}
+
+.divEsq, .divDir {
+    width: 50%;
+    float: left;
+    height: 300px;
+}
+
+.formulario-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Cor de fundo com transparência */
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.formulario-container h2 {
+    color: aliceblue;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.rodape {
+    background-color: white;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 10px 0; /* Espaçamento interno opcional */
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
