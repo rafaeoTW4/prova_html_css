@@ -63,7 +63,7 @@
 }
 
 .fundoDiv {
-    background-image: url('/andar-ideal-do-apartamento\ \(1\).jpeg'); 
+    background-image: url('./apts.jpeg'); 
     background-size: cover; /* Faz com que a imagem cubra toda a área da div */
     background-position: center; /* Centraliza a imagem na div */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
