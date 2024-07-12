@@ -63,7 +63,7 @@
 }
 
 .fundoDiv {
-    background-image: url('./apts.jpeg'); 
+    background-image: url('https://www.trisul-sa.com.br/blog/wp-content/uploads/2022/10/andar-ideal-do-apartamento.jpeg'); 
     background-size: cover; /* Faz com que a imagem cubra toda a área da div */
     background-position: center; /* Centraliza a imagem na div */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
